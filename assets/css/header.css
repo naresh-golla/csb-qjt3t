@@ -1,0 +1,416 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.header-bg-img {
+  /* z-index: -1; */
+  background-image: url("/assets/img/bg-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  height: 1282px;
+}
+
+.bg-img,
+.hero-component {
+  background-image: url("/assets/img/bg-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.Kroll-Header {
+  height: 12.9rem;
+  width: 100%;
+  border-bottom: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+.is-scrolled .Kroll-Header {
+  height: 12.9rem;
+}
+/* Kroll header toggle starts*/
+.kroll-white {
+  background-color: #ffffff !important;
+}
+.kroll-white .header-bg-img {
+  background-image: none;
+}
+.kroll-white .kroll-contact,
+.kroll-white .kroll-phone,
+.kroll-white .kroll-bookmark {
+  stroke: #001424;
+}
+.kroll-white .primary-nav {
+  color: #001424;
+}
+.kroll-white .Search__icon {
+  stroke: #001424;
+}
+.kroll-white .SearchInput-custom {
+  background-color: #ffffff;
+  border: 1px dotted #001424;
+}
+.kroll-white .BurgerClass {
+  border: 1px dotted #001424;
+  background-color: #001424;
+}
+.kroll-white .BurgerClass span {
+  background-color: #ffffff;
+}
+/* Kroll header toggle ends */
+
+.kroll-contact {
+  fill: none;
+  fill-rule: evenodd;
+  stroke: #ffffff;
+  stroke-width: 1;
+  height: 1.3em;
+  width: 1.9rem;
+}
+.kroll-phone,
+.kroll-bookmark {
+  fill: none;
+  fill-rule: evenodd;
+  stroke: #ffffff;
+  stroke-width: 1;
+  height: 1.2em;
+  width: 1.6rem;
+}
+
+.kroll-logo-large,
+.is-scrolled .kroll-logo-large {
+  width: 15.3rem !important;
+  height: 3.5rem !important;
+  transition: none;
+}
+.primary-nav {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.Search__icon {
+  position: absolute;
+  background: 0;
+  right: 0;
+  align-self: center;
+  border-radius: 50%;
+  height: 2.4rem;
+  width: 1.6rem;
+  stroke: #ffffff;
+  stroke-width: 1.4px;
+  cursor: pointer;
+  margin-right: 1.4rem;
+  margin-top: 2px;
+}
+
+.BurgerClass {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  padding: 16px 32px;
+  border-radius: 100px;
+  width: 8.8rem;
+  height: 4.9rem;
+  background-color: #ffffff;
+}
+.BurgerClass span {
+  width: 2.4rem;
+  background-color: #001424;
+  margin-bottom: 0px;
+  height: 1px;
+}
+
+.normal {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.light {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.u-mr-26 {
+  margin-right: 2.6rem;
+}
+
+.u-mr-5 {
+  margin-right: 0.5rem;
+}
+
+.u-mr-8 {
+  margin-right: 0.8rem;
+}
+
+.u-mt-17 {
+  margin-top: 1.7rem;
+}
+
+.u-blue-header {
+  color: #001424;
+}
+
+@media screen and (min-width: 64.0625em) {
+  .Kroll-Header {
+    height: 12.9rem;
+  }
+  .Kroll-Header ~ .Wrapper {
+    margin-top: 12.9rem;
+  }
+  .Kroll-primary {
+    height: 4.9rem;
+  }
+  .is-scrolled .Kroll-primary {
+    height: 4.9rem;
+  }
+  .kroll-logo-small,
+  .is-scrolled .kroll-logo-small {
+    width: 15.3rem !important;
+    height: 3.5rem !important;
+    transition: none !important;
+  }
+  .SearchBox-custom {
+    width: 49px;
+    height: 49px;
+  }
+  .is-scrolled .SearchBox-custom {
+    height: 49px;
+    width: 49px;
+  }
+  .BurgerClass span {
+    margin-bottom: -2px;
+  }
+  .SearchBox-custom.is-active {
+    width: 75%;
+    height: 49px;
+  }
+  .is-scrolled .SearchBox-custom.is-active {
+    position: inherit;
+  }
+  .SearchInput-custom {
+    background-color: #001424;
+    position: relative;
+    border: 1px dotted #ffffff;
+    border-radius: 50px;
+    padding-left: 3.5rem;
+    height: 4.9rem;
+  }
+  .is-active .SearchInput-custom {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .noCurve .SearchInput-custom {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .is-active .Search__icon {
+    stroke: #001424;
+  }
+  .SearchInput-custom:focus {
+    background-color: #fff;
+  }
+  .SearchBox-custom.is-active .SearchBox-custom .Icon--search-custom {
+    top: 23px !important;
+  }
+  .SearchBox-custom.is-active .Icon--search-custom {
+    left: auto;
+  }
+  .SearchBox-custom .Icon--search-custom {
+    left: 16px;
+    top: 23px;
+  }
+  .SearchBox-wrapper-custom {
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  .is-active .SearchBox-wrapper-custom {
+    height: 49px;
+    background-color: transparent;
+  }
+
+  .activeNav {
+    overflow: hidden;
+  }
+
+  .activeNav .BurgerClass {
+    display: block;
+  }
+
+  .activeNav .BurgerClass span {
+    position: absolute;
+    top: 50%;
+  }
+
+  .activeNav .BurgerClass span:nth-of-type(1) {
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .activeNav .BurgerClass span:nth-of-type(2) {
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+
+  .activeNav .BurgerClass span:nth-of-type(3) {
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .Kroll-Header .SearchResultsBox {
+    border: 1px dotted #001424;
+    border-top: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  .removeBorder{
+    border: none !important;
+  }
+  .Kroll-Header .SearchResultsBox-results {
+    padding-left: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 64.0625em) {
+  .header-bg-img,
+  .bg-img,
+  .hero-component {
+    background-image: none;
+    background-color: #001424;
+  }
+  .kroll-white .header-bg-img {
+    background-color: #fff;
+  }
+  .kroll-white .BurgerClass span {
+    background-color: #001424 !important;
+  }
+  .Kroll-Header {
+    height: 8.8rem;
+    display: flex;
+    align-items: center;
+  }
+  .is-scrolled .Kroll-Header {
+    height: 8.8rem;
+  }
+  .Header .BurgerClass {
+    margin-right: 0;
+    border: none;
+    width: 2.4rem;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
+  .BurgerClass:active {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
+  .Header .BurgerClass span {
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  .kroll-logo-small {
+    width: 10rem !important;
+    height: 2.2rem !important ;
+  }
+  .BurgerClass {
+    padding-inline-end: 26px;
+  }
+  .primary-nav {
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .SearchBox-custom {
+    margin: 1rem auto;
+  }
+  .searchBox-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    padding: 1px;
+  }
+  .SearchInput-custom {
+    background-color: #fff;
+    position: relative;
+    border: 1px dotted #001424;
+    border-radius: 100px;
+    padding-left: 2.5rem;
+    height: 6.5rem;
+  }
+  .SearchInput-custom:focus {
+    background-color: #fff;
+    outline: none;
+  }
+  .SearchInput-custom::-webkit-input-placeholder {
+    color: #949494;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-family: Nunito Sans, sans-serif;
+  }
+
+  .SearchBox-custom .Icon--search-Mob {
+    fill-rule: evenodd;
+    fill: none;
+    stroke: #465661;
+    stroke-linecap: square;
+    stroke-width: 2;
+    width: 1.6rem;
+    stroke-width: 1.3px;
+    stroke: #001424;
+    position: absolute;
+    right: 2.3rem;
+  }
+  .mobileSecNav {
+    margin-top: auto;
+    margin-bottom: 2.4rem;
+  }
+  .secNavBorder {
+    padding-top: 1rem;
+    border-top: 1px dotted #001424;
+  }
+  .Kroll-Header .SearchResultsBox,
+  .MobileNav-custom .SearchResultsBox {
+    position: absolute;
+    z-index: 1;
+    overflow-y: hidden;
+    top: 77px;
+    left: 0px;
+    right: 0px;
+    height: calc(100vh - 166px);
+  }
+  .Kroll-Header .SearchResultsBox.u-boxShadow-1,
+  .MobileNav-custom .SearchResultsBox.u-boxShadow-1 {
+    box-shadow: none;
+  }
+}
+
+img.header-image {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+}
+
+.bg-img-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+@media only screen and (min-device-width: 750px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  .NewsletterWrapper .Button {
+    padding-left: 6px;
+    padding-right: 9px;
+    min-width: 0px;
+  }
+}
+

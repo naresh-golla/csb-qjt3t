@@ -1,0 +1,386 @@
+.font-size-16 {
+  font-size: 16px;
+}
+.h6-class {
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+  color: #001424;
+}
+.mobile-nav-ml {
+  margin-left: -41px;
+}
+.menu-page-p-20 {
+  padding: 20px;
+}
+.font-style-normal {
+  font-style: normal;
+}
+.borderDark {
+  border: 1px solid #001424;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-800 {
+  font-weight: 800;
+}
+.flex-grow-2 {
+  flex-grow: 2;
+}
+.u-color-dark {
+  color: #001424;
+}
+.transform-0 {
+  transform: rotate(0deg) !important;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.ot-sdk-container {
+  display: none !important;
+}
+.menu-nav-m-b {
+  background-color: #f6f6f7;
+}
+.nav-menu-page-class {
+  background-color: white;
+  height: calc(100vh - 135px);
+  width: 100%;
+}
+.menu-page {
+  width: 100%;
+  height: 100%;
+  margin-top: 129px;
+  padding-left: 0px !important;
+}
+.p-banner-text {
+  color: #949494;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;
+  height: 3.6em;
+}
+.color-white {
+  color: white;
+}
+h3 {
+  font-weight: 500;
+}
+.u-bg-dark {
+  background-color: #001424;
+}
+
+#tabs li a.inactive {
+  padding-top: 5px;
+  border-bottom: solid 1px #ccc;
+}
+#nav-ul-id .nav-li {
+  cursor: pointer;
+}
+.round-corner-button {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  border-radius: 30px;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+.button-h-38 {
+  height: 38px;
+}
+.mobile-nav-main {
+  overflow: hidden;
+  position: relative;
+}
+.mobile-nav-list-right {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.NavItem-class {
+  position: relative;
+}
+.NavItem-class > a,
+.NavItem-class > b {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navItem-Custom > a,
+.navItem-Custom > b {
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+.NavItem-class .Button {
+  padding: 12px 6px;
+  top: 0;
+  right: 0;
+}
+.navItem-Custom {
+  border-bottom: 1px solid #001424 !important;
+}
+.navItem-Custom:hover {
+  color: #001424 !important;
+}
+.NavItem-class > a,
+.NavItem-class > b {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.navItem-Custom b {
+  font-family: Roboto Mono !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  padding-right: 20px !important;
+  padding-bottom: 8px !important;
+}
+.navItem-Custom.is-expanded {
+  border-bottom: none !important;
+  padding-bottom: 12px;
+}
+.navItem-Custom.is-expanded b {
+  border-bottom: 1px solid #001424 !important;
+}
+.MobileNav .navItem-Custom.is-expanded .transform-0 {
+  transform: rotate(90deg) !important;
+}
+.u-transform-button-0 {
+  transform: rotate(0deg) !important;
+}
+.NavItem-itemSubnav-class {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.NavItem-itemSubnav-class li:last-child a {
+  padding-bottom: 0px !important;
+}
+.NavItem-itemSubnav-class li:first-child {
+  margin-top: 15px;
+}
+.NavItem-itemSubnav-class li a {
+  padding: 6px 0 !important;
+}
+.nav-main-Li-a {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+}
+.nav-Submenu-heading {
+  color: #43b049;
+  font-family: "ROBOTO MONO";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.svgBorderDashed {
+  width: 24px;
+  height: 24px;
+  border: 1px solid;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border-style: dashed;
+}
+.m-nav-desc b {
+  font-family: Roboto Mono !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: #43b049 !important;
+}
+.m-nav-desc li span {
+  font-family: Nunito Sans !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 25px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+}
+.m-nav-des-button {
+  font-family: Roboto Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0px !important;
+  display: flex;
+  align-items: center;
+}
+.m-nav-des-button div {
+  width: 14px;
+  height: 14px;
+  background: black;
+  fill: none;
+  stroke: white;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.m-nav-des-button svg {
+  fill: white !important;
+  color: white !important;
+}
+.u-pl-6 {
+  padding-left: 6px;
+}
+.sub-nav-p {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #001424;
+}
+.roboto-P {
+  font-family: Roboto Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.navLinks-li-a {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.NavItem-class .Button {
+  margin-top: -4px;
+}
+.margin-top-14 {
+  margin-top: 14px;
+}
+.padding-top-14 {
+  padding-top: 14px;
+}
+.chevron-svg {
+  height: 14px;
+  width: 14px;
+}
+.ctaWrapper {
+  font-family: "ROBOTO MONO";
+  font-weight: 400;
+  font-size: 14px;
+}
+.menu-right {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.menu-right::-webkit-scrollbar {
+  width: 8px;
+}
+.menu-right::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 100px;
+  border: 2px solid #b7b7b8;
+}
+.menu-right::-webkit-scrollbar-thumb {
+  width: 4px;
+  border-radius: 100px;
+  border: 10px solid #001424;
+  border-left: 0;
+  border-right: 0;
+  background-color: #001424;
+}
+.nav-ul-class {
+  padding-left: 0px !important;
+}
+.MobileNav-custom {
+  min-height: calc(100vh - 88px);
+  max-height: auto;
+  top: 88px;
+  padding-bottom: 50px;
+}
+.sub-nav-right-class {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+/* css for search results dropdown start*/
+.Kroll-Header .SearchResultsBox-results p b,
+.MobileNav-custom .SearchResultsBox-results p b {
+  font-family: Roboto Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #001424;
+}
+.Kroll-Header .SearchResultsBox-results ul li a,
+.Kroll-Header .SearchResultsBox-results a > span.p-6 b,
+.MobileNav-custom .SearchResultsBox-results ul li a,
+.MobileNav-custom .SearchResultsBox-results a span.p-6 b {
+  font-family: Nunito Sans !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: 27px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: #000000 !important;
+}
+.Kroll-Header .NavMask {
+  display: none;
+}
+.hr-class {
+  width: 90%;
+  margin-left: 0px;
+}
+/* css for search results dropdown end*/
+.NavItem .mob-all-button-div .mob-all-button-a {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 64.0625em) {
+  .navItem-Custom.is-expanded {
+    padding-bottom: 0px;
+  }
+}
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  @media (orientation: portrait) {
+    .MobileNav-custom {
+      padding-bottom: 100px;
+    }
+  }
+  @media (orientation: landscape) {
+    .MobileNav-custom {
+      padding-bottom: 50px;
+    }
+  }
+}

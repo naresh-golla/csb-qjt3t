@@ -1,0 +1,9 @@
+header, section.Footer-main {
+    position: relative !important;
+}
+.Wrapper {
+    margin-top: 0 !important;
+}
+.DetailHeader {
+    top: 0;
+}
